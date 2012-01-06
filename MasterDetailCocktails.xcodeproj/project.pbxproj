@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E2B2C9148FFB150080EEA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2B2C8148FFB150080EEA8 /* UIKit.framework */; };
+		37E2B2CB148FFB150080EEA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2B2CA148FFB150080EEA8 /* Foundation.framework */; };
+		37E2B2CD148FFB150080EEA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2B2CC148FFB150080EEA8 /* CoreGraphics.framework */; };
+		37E2B2D3148FFB150080EEA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37E2B2D1148FFB150080EEA8 /* InfoPlist.strings */; };
+		37E2B2D5148FFB150080EEA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2B2D4148FFB150080EEA8 /* main.m */; };
+		37E2B2D9148FFB150080EEA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2B2D8148FFB150080EEA8 /* AppDelegate.m */; };
+		37E2B2DC148FFB150080EEA8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2B2DB148FFB150080EEA8 /* MasterViewController.m */; };
+		37E2B2DF148FFB150080EEA8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2B2DE148FFB150080EEA8 /* DetailViewController.m */; };
+		37E2B2E2148FFB150080EEA8 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E2B2E0148FFB150080EEA8 /* MasterViewController.xib */; };
+		37E2B2E5148FFB150080EEA8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E2B2E3148FFB150080EEA8 /* DetailViewController.xib */; };
+		37E2B2EE148FFB2F0080EEA8 /* mojito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E2B2EB148FFB2F0080EEA8 /* mojito.jpg */; };
+		37E2B2EF148FFB2F0080EEA8 /* pina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E2B2EC148FFB2F0080EEA8 /* pina.jpg */; };
+		37E2B2F0148FFB2F0080EEA8 /* Sex On The Beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37E2B2ED148FFB2F0080EEA8 /* Sex On The Beach.jpg */; };
+		37E2B2F6149005810080EEA8 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2B2F5149005810080EEA8 /* Recipe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37E2B2C4148FFB150080EEA8 /* MasterDetailCocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterDetailCocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2B2C8148FFB150080EEA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37E2B2CA148FFB150080EEA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37E2B2CC148FFB150080EEA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37E2B2D0148FFB150080EEA8 /* MasterDetailCocktails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterDetailCocktails-Info.plist"; sourceTree = "<group>"; };
+		37E2B2D2148FFB150080EEA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37E2B2D4148FFB150080EEA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37E2B2D6148FFB150080EEA8 /* MasterDetailCocktails-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MasterDetailCocktails-Prefix.pch"; sourceTree = "<group>"; };
+		37E2B2D7148FFB150080EEA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37E2B2D8148FFB150080EEA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37E2B2DA148FFB150080EEA8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		37E2B2DB148FFB150080EEA8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		37E2B2DD148FFB150080EEA8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		37E2B2DE148FFB150080EEA8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		37E2B2E1148FFB150080EEA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		37E2B2E4148FFB150080EEA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		37E2B2EB148FFB2F0080EEA8 /* mojito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mojito.jpg; sourceTree = "<group>"; };
+		37E2B2EC148FFB2F0080EEA8 /* pina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pina.jpg; sourceTree = "<group>"; };
+		37E2B2ED148FFB2F0080EEA8 /* Sex On The Beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sex On The Beach.jpg"; sourceTree = "<group>"; };
+		37E2B2F4149005810080EEA8 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		37E2B2F5149005810080EEA8 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E2B2C1148FFB150080EEA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2B2C9148FFB150080EEA8 /* UIKit.framework in Frameworks */,
+				37E2B2CB148FFB150080EEA8 /* Foundation.framework in Frameworks */,
+				37E2B2CD148FFB150080EEA8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E2B2B9148FFB150080EEA8 = {
+			isa = PBXGroup;
+			children = (
+				37E2B2CE148FFB150080EEA8 /* MasterDetailCocktails */,
+				37E2B2C7148FFB150080EEA8 /* Frameworks */,
+				37E2B2C5148FFB150080EEA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E2B2C5148FFB150080EEA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E2B2C4148FFB150080EEA8 /* MasterDetailCocktails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E2B2C7148FFB150080EEA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E2B2C8148FFB150080EEA8 /* UIKit.framework */,
+				37E2B2CA148FFB150080EEA8 /* Foundation.framework */,
+				37E2B2CC148FFB150080EEA8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E2B2CE148FFB150080EEA8 /* MasterDetailCocktails */ = {
+			isa = PBXGroup;
+			children = (
+				37E2B2D7148FFB150080EEA8 /* AppDelegate.h */,
+				37E2B2D8148FFB150080EEA8 /* AppDelegate.m */,
+				37E2B2DA148FFB150080EEA8 /* MasterViewController.h */,
+				37E2B2DB148FFB150080EEA8 /* MasterViewController.m */,
+				37E2B2DD148FFB150080EEA8 /* DetailViewController.h */,
+				37E2B2DE148FFB150080EEA8 /* DetailViewController.m */,
+				37E2B2F4149005810080EEA8 /* Recipe.h */,
+				37E2B2F5149005810080EEA8 /* Recipe.m */,
+				37E2B2E0148FFB150080EEA8 /* MasterViewController.xib */,
+				37E2B2E3148FFB150080EEA8 /* DetailViewController.xib */,
+				37E2B2EB148FFB2F0080EEA8 /* mojito.jpg */,
+				37E2B2EC148FFB2F0080EEA8 /* pina.jpg */,
+				37E2B2ED148FFB2F0080EEA8 /* Sex On The Beach.jpg */,
+				37E2B2CF148FFB150080EEA8 /* Supporting Files */,
+			);
+			path = MasterDetailCocktails;
+			sourceTree = "<group>";
+		};
+		37E2B2CF148FFB150080EEA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E2B2D0148FFB150080EEA8 /* MasterDetailCocktails-Info.plist */,
+				37E2B2D1148FFB150080EEA8 /* InfoPlist.strings */,
+				37E2B2D4148FFB150080EEA8 /* main.m */,
+				37E2B2D6148FFB150080EEA8 /* MasterDetailCocktails-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E2B2C3148FFB150080EEA8 /* MasterDetailCocktails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2B2E8148FFB160080EEA8 /* Build configuration list for PBXNativeTarget "MasterDetailCocktails" */;
+			buildPhases = (
+				37E2B2C0148FFB150080EEA8 /* Sources */,
+				37E2B2C1148FFB150080EEA8 /* Frameworks */,
+				37E2B2C2148FFB150080EEA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterDetailCocktails;
+			productName = MasterDetailCocktails;
+			productReference = 37E2B2C4148FFB150080EEA8 /* MasterDetailCocktails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E2B2BB148FFB150080EEA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 37E2B2BE148FFB150080EEA8 /* Build configuration list for PBXProject "MasterDetailCocktails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37E2B2B9148FFB150080EEA8;
+			productRefGroup = 37E2B2C5148FFB150080EEA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E2B2C3148FFB150080EEA8 /* MasterDetailCocktails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E2B2C2148FFB150080EEA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2B2D3148FFB150080EEA8 /* InfoPlist.strings in Resources */,
+				37E2B2E2148FFB150080EEA8 /* MasterViewController.xib in Resources */,
+				37E2B2E5148FFB150080EEA8 /* DetailViewController.xib in Resources */,
+				37E2B2EE148FFB2F0080EEA8 /* mojito.jpg in Resources */,
+				37E2B2EF148FFB2F0080EEA8 /* pina.jpg in Resources */,
+				37E2B2F0148FFB2F0080EEA8 /* Sex On The Beach.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E2B2C0148FFB150080EEA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2B2D5148FFB150080EEA8 /* main.m in Sources */,
+				37E2B2D9148FFB150080EEA8 /* AppDelegate.m in Sources */,
+				37E2B2DC148FFB150080EEA8 /* MasterViewController.m in Sources */,
+				37E2B2DF148FFB150080EEA8 /* DetailViewController.m in Sources */,
+				37E2B2F6149005810080EEA8 /* Recipe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37E2B2D1148FFB150080EEA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2B2D2148FFB150080EEA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37E2B2E0148FFB150080EEA8 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2B2E1148FFB150080EEA8 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		37E2B2E3148FFB150080EEA8 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2B2E4148FFB150080EEA8 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E2B2E6148FFB160080EEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		37E2B2E7148FFB160080EEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E2B2E9148FFB160080EEA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterDetailCocktails/MasterDetailCocktails-Prefix.pch";
+				INFOPLIST_FILE = "MasterDetailCocktails/MasterDetailCocktails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37E2B2EA148FFB160080EEA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MasterDetailCocktails/MasterDetailCocktails-Prefix.pch";
+				INFOPLIST_FILE = "MasterDetailCocktails/MasterDetailCocktails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E2B2BE148FFB150080EEA8 /* Build configuration list for PBXProject "MasterDetailCocktails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2B2E6148FFB160080EEA8 /* Debug */,
+				37E2B2E7148FFB160080EEA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2B2E8148FFB160080EEA8 /* Build configuration list for PBXNativeTarget "MasterDetailCocktails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2B2E9148FFB160080EEA8 /* Debug */,
+				37E2B2EA148FFB160080EEA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E2B2BB148FFB150080EEA8 /* Project object */;
+}
